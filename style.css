@@ -1,0 +1,45 @@
+div#support {
+  background-color: #efe;
+  top: 2vh;
+  left: 0;
+  bottom: 0;
+  width: 50vw;
+  min-height: 98vh;
+  position: absolute;
+  padding: 4px;
+}
+
+div#unsupport {
+  background-color: #fee;
+  top: 2vh;
+  right: 0;
+  bottom: 0;
+  width: 50vw;
+  min-height: 98vh;
+  position: absolute;
+  padding: 4px;
+}
+
+div#ua {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2vh;
+  line-height: 100%;
+  width: 100vw;
+  position: absolute;
+}
+
+noscript {
+  background-color: #fee;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
