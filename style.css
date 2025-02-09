@@ -6,7 +6,7 @@
 
 div#support {
   background-color: #efe;
-  top: 24px;
+  top: 36px;
   left: 0;
   bottom: 0;
   width: 50%;
@@ -16,7 +16,7 @@ div#support {
 
 div#unsupport {
   background-color: #fee;
-  top: 24px;
+  top: 36px;
   right: 0;
   bottom: 0;
   width: 50%;
@@ -28,9 +28,10 @@ div#ua {
   top: 0;
   left: 0;
   right: 0;
-  height: 24px;
+  height: 36px;
   position: absolute;
   overflow: scroll;
+  margin: 4px;
 }
 
 noscript {
@@ -40,6 +41,7 @@ noscript {
   left: 0;
   right: 0;
   position: absolute;
+  margin: 4px;
 }
 
 p {
