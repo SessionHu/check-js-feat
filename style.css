@@ -1,33 +1,36 @@
+* {
+  line-height: 100%;
+  font-size: 14px;
+  font-family: monospace;
+}
+
 div#support {
   background-color: #efe;
-  top: 2vh;
+  top: 24px;
   left: 0;
   bottom: 0;
-  width: 50vw;
-  min-height: 98vh;
-  height: 110%;
+  width: 50%;
   position: absolute;
+  overflow: scroll;
 }
 
 div#unsupport {
   background-color: #fee;
-  top: 2vh;
+  top: 24px;
   right: 0;
   bottom: 0;
-  width: 50vw;
-  min-height: 98vh;
-  height: 110%;
+  width: 50%;
   position: absolute;
+  overflow: scroll;
 }
 
 div#ua {
   top: 0;
   left: 0;
   right: 0;
-  height: 2vh;
-  line-height: 100%;
-  width: 100vw;
+  height: 24px;
   position: absolute;
+  overflow: scroll;
 }
 
 noscript {
