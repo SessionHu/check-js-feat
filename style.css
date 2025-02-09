@@ -5,8 +5,8 @@ div#support {
   bottom: 0;
   width: 50vw;
   min-height: 98vh;
+  height: 110%;
   position: absolute;
-  padding: 4px;
 }
 
 div#unsupport {
@@ -16,8 +16,8 @@ div#unsupport {
   bottom: 0;
   width: 50vw;
   min-height: 98vh;
+  height: 110%;
   position: absolute;
-  padding: 4px;
 }
 
 div#ua {
@@ -40,6 +40,5 @@ noscript {
 }
 
 p {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin: 4px;
 }
