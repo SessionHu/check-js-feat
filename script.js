@@ -1,6 +1,10 @@
 'use strict';
 
 var oam = [
+  'Array.from',
+  'Array.fromAsync',
+  'Array.isArray',
+  'Array.of',
   'Array.prototype.at',
   'Array.prototype.concat',
   'Array.prototype.copyWithin',
