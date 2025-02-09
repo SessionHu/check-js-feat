@@ -38,7 +38,39 @@ var oam = [
   'Array.prototype.toString',
   'Array.prototype.unshift',
   'Array.prototype.values',
-  'Array.prototype.with'
+  'Array.prototype.with',
+  'String.prototype.at',
+  'String.prototype.charAt',
+  'String.prototype.charCodeAt',
+  'String.prototype.codePointAt',
+  'String.prototype.concat',
+  'String.prototype.endsWith',
+  'String.prototype.includes',
+  'String.prototype.indexOf',
+  'String.prototype.isWellFormed',
+  'String.prototype.lastIndexOf',
+  'String.prototype.matchAll',
+  'String.prototype.normalize',
+  'String.prototype.padEnd',
+  'String.prototype.padStart',
+  'String.prototype.repeat',
+  'String.prototype.replace',
+  'String.prototype.replaceAll',
+  'String.prototype.search',
+  'String.prototype.slice',
+  'String.prototype.split',
+  'String.prototype.startsWith',
+  'String.prototype.substring',
+  'String.prototype.toLocaleLowerCase',
+  'String.prototype.toLocaleUpperCase',
+  'String.prototype.toLowerCase',
+  'String.prototype.toString',
+  'String.prototype.toUpperCase',
+  'String.prototype.toWellFormed',
+  'String.prototype.trim',
+  'String.prototype.trimEnd',
+  'String.prototype.trimStart',
+  'String.prototype.valueOf',
 ];
 
 var elem = document.createElement('div');
@@ -49,10 +81,16 @@ document.body.appendChild(elem);
 var support = document.createElement('div');
 support.id = 'support';
 document.body.appendChild(support);
+elem = document.createElement('div');
+support.appendChild(elem);
+support = elem;
 
 var unsupport = document.createElement('div');
 unsupport.id = 'unsupport';
 document.body.appendChild(unsupport);
+elem = document.createElement('div');
+unsupport.appendChild(elem);
+unsupport = elem;
 
 var res;
 for (var i = 0; i < oam.length; i++) {
