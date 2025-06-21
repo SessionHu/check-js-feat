@@ -136,7 +136,12 @@ unsupport = elem;
 
 var res;
 for (var i = 0; i < oam.length; i++) {
-  eval('res = ' + oam[i]);
+  res = void 0;
+  try {
+    eval('res = ' + oam[i]);
+  } catch (e) {
+    // not exists
+  }
   elem = document.createElement('p');
   elem.textContent = oam[i];
   if (res) {
