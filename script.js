@@ -103,6 +103,16 @@ var oam = [
   'String.prototype.trimEnd',
   'String.prototype.trimStart',
   'String.prototype.valueOf',
+  'Promise',
+  'Promise.all',
+  'Promise.allSettled',
+  'Promise.any',
+  'Promise.race',
+  'Promise.reject',
+  'Promise.resolve',
+  'Promise.prototype.catch',
+  'Promise.prototype.finally',
+  'Promise.prototype.then'
 ];
 
 var elem = document.createElement('div');
