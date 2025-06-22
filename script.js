@@ -117,7 +117,7 @@ var oam = [
 
 var elem = document.createElement('div');
 elem.id = 'ua';
-elem.textContent = navigator.userAgent;
+elem.appendChild(document.createTextNode(navigator.userAgent));
 document.body.appendChild(elem);
 
 var support = document.createElement('div');
@@ -143,7 +143,7 @@ for (var i = 0; i < oam.length; i++) {
     // not exists
   }
   elem = document.createElement('p');
-  elem.textContent = oam[i];
+  elem.appendChild(document.createTextNode(oam[i]));
   if (res) {
     support.appendChild(elem);
   } else {
